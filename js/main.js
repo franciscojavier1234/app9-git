@@ -4,7 +4,7 @@ var audio;
 $('#pause').hide();
 
 //Initializer - Play First Song
-initAudios($('#playlist li:first-child'));
+initAudio($('#playlist li:first-child'));
 
 function initAudio(element){
 	var song = element.attr('song');
